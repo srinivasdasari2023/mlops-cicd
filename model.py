@@ -79,7 +79,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(1)
     ])
 
-# Compile the model
+## Compile the model
 model.compile(loss = tf.keras.losses.mae,
               optimizer = tf.keras.optimizers.SGD(),
               metrics = ['mae'])
