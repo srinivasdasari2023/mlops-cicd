@@ -1,4 +1,4 @@
-name: mlops-cicd
+name: mlops-cicd-tensorflow
 on: [push]
 jobs:
   run:
